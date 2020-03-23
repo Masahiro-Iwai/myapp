@@ -1,5 +1,6 @@
 .main-chat {
-  width: calc(100vw - 300px);
+  width: 100vw;
+  background-image: url("IMG_7225.jpeg");
   .main-header {
     height: 100px;
     background-color: #ffffff;
@@ -11,12 +12,6 @@
         font-size: 20px;
         color: #333333;
         margin-top: 35px;
-      }
-      &__member-list {
-        display: flex;
-        font-size: 12px;
-        margin-top: 15px;
-        color: #999999;
       }
     }
     .main-header__edit-btn {
@@ -35,8 +30,7 @@
   }
 
   .messages {
-    height: calc(100vh - 100px - 90px);
-    background-color: #fafafa;
+    height: calc(100vh - 60px - 20px);
     padding: 35px 40px;
     overflow: scroll;
     .message {
@@ -66,8 +60,8 @@
 
   .form {
     height: 90px;
-    width: calc(100vw - 300px);
-    background-color: #d2d2d2;
+    width: 100vw;
+    background-color: transparent;
     bottom: 0;
     position: fixed;
     padding: 20px 40px;
@@ -99,8 +93,8 @@
         height: 50px;
         padding: 0 30px;
         margin-left: 15px;
-        background-color: #38aef0;
-        color: white; 
+        background-color: transparent;
+        color: #38aef0; 
       }
     }
   }
