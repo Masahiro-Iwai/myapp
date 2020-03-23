@@ -40,6 +40,7 @@
       width: 100vw;
       box-sizing: border-box;
       display: flex;
+      justify-content: space-between;
       .group {
         text-decoration: none;
         &__group-name {
@@ -49,5 +50,9 @@
           padding-left: 20px;
         }
       }
-    }
+      .group-edit {
+        padding-right: 40px;
+        text-decoration: none;
+      }
   }
+}

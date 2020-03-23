@@ -19,6 +19,6 @@
         = link_to group_messages_path(group), class:'group' do
           .group__group-name
             = group.name
-
-              
+    .group-edit
+      = link_to "Edit", edit_group_path(@group), class:'edit'
 
