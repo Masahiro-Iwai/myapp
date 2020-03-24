@@ -1,6 +1,5 @@
 .main-chat {
   width: 100vw;
-  background-image: url("IMG_7225.jpeg");
   .main-header {
     height: 100px;
     background-color: #ffffff;
@@ -31,9 +30,17 @@
 
   .messages {
     height: calc(100vh - 60px - 20px);
-    padding: 35px 40px;
-    overflow: scroll;
+    padding: 20px 40px;
+    // overflow: scroll;
+    overflow-x: auto;
+    white-space: nowrap;
     .message {
+      display: inline-block;
+      -webkit-overflow-scrolling: touch;
+      height: 500px;
+      margin: 16px;
+      font-size: 48px;
+      background: rgba(129, 127, 127, 0.4);
       .upper-message {
         display: flex;
         &__user-name {
@@ -49,10 +56,26 @@
       }
       .lower-message {
         margin-top: 10px;
+        position: relative;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
         &__content {
           color: #434a54;
           font-size: 14px;
           margin-bottom: 46px;
+        }
+        &__image {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: auto;
+          width: auto;
+          max-width: 100%;
+          max-height: 100%;
+          margin: auto;
         }
       }
     }
