@@ -36,8 +36,8 @@
 
 
     .groups {
-      height: 20px;
-      width: 100vw;
+      height: 10px;
+      width: 50vw;
       box-sizing: border-box;
       display: flex;
       justify-content: space-between;
@@ -50,9 +50,10 @@
           padding-left: 20px;
         }
       }
-      .group-edit {
-        padding-right: 40px;
-        text-decoration: none;
-      }
+    .group-edit {
+      padding-right: 40px;
+      text-decoration: none;
+      float: right;
+    }
   }
 }
