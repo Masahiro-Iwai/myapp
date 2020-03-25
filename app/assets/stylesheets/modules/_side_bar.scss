@@ -1,5 +1,5 @@
 .side-bar {
-  position: fixed;
+  // position: fixed;
     .side-header {
       height: 60px;
       width: 100vw;
@@ -16,7 +16,7 @@
       }
       &__box {
         height: 20px;
-        width: 300px;
+        width: 100px;
         display: flex;
         text-align: right;
         font-weight: 100;
@@ -41,18 +41,19 @@
 
 
     .groups {
-      height:30px;
-      width: 50vw;
+      height:25px;
+      width: 100vw;
       box-sizing: border-box;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
+      background-color: rgba(63, 62, 62, 0.788);
       .group {
         text-decoration: none;
         &__group-name {
-          color: rgb(70, 68, 68);
+          color: rgb(163, 161, 161);
           font-size: 15px;
           margin-bottom: 5px;
-          padding-left: 20px;
+          padding-left: 40px;
         }
       .group-edit {
         padding-right: 40px;
