@@ -5,6 +5,8 @@
     .side-header__box
       .side-header__box__user-name 
         = current_user.name
+      -# .side-header__box__current-group
+      -#   = " / #{@group.name}"
       %ul.side-header__box__icon
         %li.side-header__box__edit-icon
           = link_to new_group_path do
