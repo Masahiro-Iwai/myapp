@@ -7,27 +7,32 @@
       display: flex;
       align-items: center;
       padding: 0 20px;
-      text-align: right;
-      &__box {
-        height: 20px;
-        width: 100%;
-        display: flex;
-        // justify-content: right;
-        // text-align: left;
-        width: 100%;
+      justify-content: space-between;
+      &__app-title {
+        font-size: 20px;
         font-weight: bold;
         line-height: 20px;
-        color: white;
+        color: #faea8ec7;
+      }
+      &__box {
+        height: 20px;
+        width: 100px;
+        display: flex;
+        text-align: right;
+        font-weight: 100;
+        line-height: 20px;
+        color: rgb(194, 193, 193);
+        font-size: 16px;
         ul {
-          height: 20px;
+          height: 25px;
           width: 60px;
           display: flex;
           justify-content: flex-end;
           li {
             a {
-              color: white;
+              color: rgb(194, 193, 193);
               margin-left: 0.3rem;
-              
+              font-size: 16px;
             }
           }
         }
@@ -37,7 +42,7 @@
 
     .groups {
       height: 10px;
-      width: 50vw;
+      width: 40vw;
       box-sizing: border-box;
       display: flex;
       justify-content: space-between;
@@ -49,11 +54,10 @@
           margin-bottom: 5px;
           padding-left: 20px;
         }
+      .group-edit {
+        padding-right: 40px;
+        text-decoration: none;
       }
-    .group-edit {
-      padding-right: 40px;
-      text-decoration: none;
-      float: right;
     }
   }
 }

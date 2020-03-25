@@ -1,7 +1,9 @@
 .side-bar
   .side-header
+    .side-header__app-title
+      = "Tailbook"
     .side-header__box
-      %p.side-header__box__user-name 
+      .side-header__box__user-name 
         = current_user.name
       %ul.side-header__box__icon
         %li.side-header__box__edit-icon
@@ -19,6 +21,5 @@
         = link_to group_messages_path(group), class:'group' do
           .group__group-name
             = group.name
-    .group-edit
-      = link_to "Edit", edit_group_path(@group), class:'edit'
-
+    -# .group-edit
+    -#   = link_to "Edit", edit_group_path(@group), class:'edit'

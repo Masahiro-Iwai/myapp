@@ -1,7 +1,6 @@
 .main-chat {
   width: 100vw;
   height: calc(100vh - 60px);
-  background-image: url("IMG_house.jpeg");
 
   .main-header {
     height: 70px;
@@ -49,7 +48,7 @@
         &__user-name {
           color: #333333;
           font-size: 16px;
-          font-weight: bold;
+          font-weight: 100;
         }
         &__date {
           color: #999999;
