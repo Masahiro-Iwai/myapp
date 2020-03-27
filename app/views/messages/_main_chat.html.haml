@@ -9,12 +9,19 @@
   .messages
     = render @messages
 
-  .form
-    = form_for [@group, @message] do |f|
-      = f.text_field :content, class: 'input-box__text', placeholder: 'type a message'
-      .input-box
-        = f.label :image, class: 'input-box__image' do
-          = icon('fas', 'image', class: 'icon')
-          = f.file_field :image, class: 'input-box__image__file'
-      = f.submit 'Send', class: 'submit-btn'
+  .navi
+    .navi-map
+      = link_to 'Walking Area', 'https://www.google.com/maps/search/%E7%8E%84%E6%B5%B7%E7%94%B0%E5%85%AC%E5%9C%92/@35.517995,139.494529,17z'
+    .group-chat
+      = "Group Chat"
+
+
+  -# .form
+  -#   = form_for [@group, @message] do |f|
+  -#     = f.text_field :content, class: 'input-box__text', placeholder: 'type a message'
+  -#     .input-box
+  -#       = f.label :image, class: 'input-box__image' do
+  -#         = icon('fas', 'image', class: 'icon')
+  -#         = f.file_field :image, class: 'input-box__image__file'
+  -#     = f.submit 'Send', class: 'submit-btn'
       

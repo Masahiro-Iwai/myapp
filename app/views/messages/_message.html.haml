@@ -12,5 +12,6 @@
     -#   %p.lower-message__content
     -#     = message.content
     = image_tag message.image.url, class: 'lower-message__image' if message.image.present?
-  .comment
-    = link_to "コメントする"
+  .chat-box
+    .chat
+      = link_to "Chat..", class: 'chat'
