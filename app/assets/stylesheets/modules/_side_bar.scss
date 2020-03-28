@@ -1,7 +1,7 @@
 .side-bar {
   // position: fixed;
     .side-header {
-      height: 60px;
+      height: 80px;
       width: 100vw;
       background-color: #222222;
       display: flex;
@@ -9,20 +9,20 @@
       padding: 0 20px;
       justify-content: space-between;
       &__app-title {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
         line-height: 20px;
         color: #faea8ec7;
       }
       &__box {
-        height: 20px;
-        width: 100px;
+        height: 25px;
+        width: 150px;
         display: flex;
         text-align: right;
         font-weight: 100;
         line-height: 20px;
         color: rgb(194, 193, 193);
-        font-size: 16px;
+        font-size: 20px;
         ul {
           height: 25px;
           width: 60px;
@@ -41,7 +41,7 @@
 
 
     .groups {
-      height:25px;
+      height:40px;
       width: 100vw;
       box-sizing: border-box;
       display: flex;
@@ -51,9 +51,10 @@
         text-decoration: none;
         &__group-name {
           color: rgb(163, 161, 161);
-          font-size: 15px;
+          font-size: 17px;
           margin-bottom: 5px;
           padding-left: 40px;
+          line-height: 40px;
         }
       .group-edit {
         padding-right: 40px;

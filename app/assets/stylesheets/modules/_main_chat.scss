@@ -8,17 +8,17 @@
     .main-header__left-box {
       &__current-group {
         display: flex;
-        font-size: 18px;
+        font-size: 22px;
         color: white;
         font-weight: initial;
-        padding-top: 3px;
+        padding-top: 40px;
       }
     }
   }
 
   .messages {
-    height: calc(100vh - 60px - 25px - 70px);
-    padding: 0px 40px;
+    height: calc(100vh - 80px - 40px - 80px);
+    padding: 10px 40px;
     // overflow: scroll;
     overflow-x: auto;
     white-space: nowrap;
@@ -26,7 +26,7 @@
       display: inline-block;
       -webkit-overflow-scrolling: touch;
       height: 500px;
-      margin: 5px;
+      margin: 15px;
       font-size: 48px;
       background: rgba(247, 244, 244, 0.747);
       .upper-message {
@@ -40,7 +40,7 @@
         &__date {
           color: #575656;
           font-size: 12px;
-          margin-left: 10px;
+          margin-left: 20px;
           font-size: 16px;
         }
       }
@@ -86,18 +86,18 @@
   }
 
   .navi {
-    height: 70px;
+    height: 80px;
     width: 100vw;
     background-color: rgb(22, 22, 22);
     bottom: 0;
     position: fixed;
-    padding: 15px 40px;
+    padding: 17px 33px;
     display: flex;
     justify-content: center;
-    line-height: 40px;
+    line-height: 45px;
     font-size: 16px;
     .navi-map {
-      padding: 0px 15px;
+      padding: 0px 20px;
       color: rgb(230, 228, 228);
       background-color: #575656;
       border-radius: 5px;
@@ -107,7 +107,7 @@
       }
     }
     .group-chat {
-      padding: 0px 15px;
+      padding: 0px 20px;
       color: rgb(230, 228, 228);
       margin-left: 100px;
       background-color: #575656;
